@@ -1,0 +1,18 @@
+﻿@page "/Personas/Crear"
+
+<h3>Persona Crear</h3>
+
+<FormularioPersona OnValidSubmit="Crear" Persona="Persona"/>
+
+
+@code {
+
+    private Persona Persona = new Persona();
+
+    private void Crear()
+    {
+
+        Console.WriteLine($"Persona Creada: {Persona.NombrePersona}");
+
+    }
+}

@@ -1,0 +1,22 @@
+﻿@page "/Genero/Editar/{GeneroID:int}"
+<h3>Editar Genero</h3>
+
+<FormularioGenero OnValidSubmit="Editar" genero="genero"/>
+
+@code {
+
+    [Parameter] public int GeneroID { get; set; }
+    private Genero genero;
+
+    protected override void OnInitialized()
+    {
+        genero = new Genero() { GeneroID = GeneroID, GeneroNombre = "Drama" };
+    }
+
+    private void Editar()
+    {
+        Console.WriteLine("Ejecutando Metodo Edita en Genero");
+        Console.WriteLine($"Nombre Genero: {genero.GeneroNombre} ID{genero.GeneroID}");
+
+    }
+}

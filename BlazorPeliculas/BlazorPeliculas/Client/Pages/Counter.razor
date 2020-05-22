@@ -1,0 +1,16 @@
+﻿@page "/counter"
+@inherits CounterBase
+
+
+
+
+
+<p> style="color>Current count: @currentCount</p>
+<p> Singlenton count: @Singleton.valor</p>
+<p> Transient count : @Transient.valor</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="IncrementCountJS">Click me from JS</button>
+
+
+

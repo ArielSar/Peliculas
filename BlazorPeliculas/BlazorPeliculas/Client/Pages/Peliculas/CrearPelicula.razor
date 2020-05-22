@@ -1,0 +1,18 @@
+﻿@page "/Peliculas/Crear"
+@inject NavigationManager navigation
+
+<h3>Crear</h3>
+
+<buttom @onclick="PeliculaCrear">Crear Pelicula</buttom>
+
+@code {
+
+    void PeliculaCrear()
+    {
+
+        Console.WriteLine(navigation.BaseUri);
+        navigation.NavigateTo("/Pelicula");
+
+    }
+
+}

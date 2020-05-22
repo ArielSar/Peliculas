@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IArld17hPr+nLdy5KHI6n8pXdOGwS8SfxSsK47bFWt65lqwwIEDtKPINas+RW5pdG99gK6+0p2DnmQQfEhSe9Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ariel\\source\\repos\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ariel\\.nuget\\packages\\markdig\\0.20.0\\markdig.0.20.0.nupkg.sha512",
+    "C:\\Users\\Ariel\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
